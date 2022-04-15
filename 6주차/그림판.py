@@ -24,7 +24,7 @@ def getWidth() :
 x1, x2 ,y1, y2 = None, None, None, None  #선의 시작점과 끝점
 penColor = 'black'
 penWidth = 5
-
+####### 2019038036   송빈원   ######
 #메인 코드 부분
 if __name__ == "__main__" :
     window = Tk()

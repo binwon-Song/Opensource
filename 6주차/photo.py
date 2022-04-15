@@ -12,7 +12,7 @@ def myFunc() :
 # 전역 변수 선언 부분
 var, labelImage = 0, None
 
-
+####### 2019038036   송빈원   ######
 #메인 코드 부분
 if __name__ == "__main__" :
     window = Tk()
