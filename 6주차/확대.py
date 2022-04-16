@@ -20,6 +20,8 @@ def func_exit():
 
 def func_zoom():
     global value
+    global value2
+    value2=0
     value+=1
     print(value)
     photo = PhotoImage(file = filename)
@@ -29,6 +31,8 @@ def func_zoom():
 
 def func_unzoom():
     global value2
+    global value
+    value=0
     value2+=1
     print(value2)
     photo = PhotoImage(file = filename)
